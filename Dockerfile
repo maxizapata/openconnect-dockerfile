@@ -11,4 +11,4 @@ RUN apt-get install -y openconnect
 RUN chmod +x /connect.sh
 RUN chmod 600 ~/.ssh/authorized_keys
 
-ENTRYPOINT ["/connect.sh"]
+#ENTRYPOINT ["/connect.sh"]
